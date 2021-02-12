@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW_6_G_FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="section top-image"></div>
+    <div class="section form-heder">
+        <h1>Party Invite</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis sem odio. Sed commodo vestibulum leo, sit amet tempus odio consectetur in.</p>
+    <P>* Обязательно</P>
+    </div>
+    <form action="">
+        <div class="section">
+            <h2>What is your name?</h2>
+            <input type="text" placeholder="Your answer"/>
+        </div>
+        <div class="section">
+            <div class="for-star"><h2>Can you attend?</h2><h2>*</h2></div>
+            <ul>
+                <li>
+        <input id="yes" type="radio" value="Yes, I'll be there" name="attend"/>
+        <label for="yes">Yes, I'll be there</label>
+    </li>
+        <li>
+            <input id="sorry" type="radio" value="Sorry, can't make it" name="attend"/>
+            <label for="sorry">Sorry, can't make it</label>
+        </li>
+</ul>    
+    </div>
+    <div class="section">
+        <h2>How many of you are attending?</h2>
+        <input type="text" placeholder="Your answer"/>
+    </div>
+    <div class="section">
+        <div class="h2-h3-block">
+        <h2>What will you be bringing?</h2>
+        <h3>Let us know what kind of dish(es) you'll be bringing</h3>
+    </div>
+        <ul>
+            <li>
+    <input id="mains" type="checkbox" name="chek_mains" value="Mains"/>
+    <label for="mains">Mains</label>
+</li>
+            <li>
+    <input id="salad" type="checkbox" name="chek_salad" value="Salad"/>
+    <label for="salad">Salad</label>
+</li>
+            <li>
+    <input id="dessert" type="checkbox" name="chek_dessert" value="Dessert"/>
+    <label for="dessert">Dessert</label>
+</li>
+            <li>
+    <input id="drinks" type="checkbox" name="chek_drinks" value="Drinks"/>
+    <label for="drinks">Drinks</label>
+</li>
+            <li>
+    <input id="sides" type="checkbox" name="chek_sides" value="Sides/Appetizers"/>
+    <label for="sides">Sides/Appetizers</label>
+</li>
+</li>
+            <li>
+    <input id="other" type="checkbox" name="chek_others" value="Другое:"/>
+    <label for="other">Другое:</label> 
+    <input id="other-bringing" type="text" placeholder=""/>
+</li>
+</ul>    
+</div>
+    <div class="section">
+        <h2>Do you have any allergies or dietary restrictions?</h2>
+        <input type="text" placeholder="Your answer"/>
+    </div>
+    <div class="section">
+        <h2>What is your email address?</h2>
+        <input type="text" placeholder="Your answer"/>
+    </div>
+        <button class="submit-button">Отправить</button>
+
+    </form>
+    <footer class="mein-footer">
+        <p>Никогда не используйте формы Google для передачи паролей.</p>
+        <div>
+            Компания Google не имеет никакого отношения к этому контенту. Сообщение о нарушении - Условия использования - Политика конфиденциальности
+        </div>
+        <a href="#"><img src="./footer_google_picturie.svg" alt="footer google logo">Формы</a>
+    </footer>
+</div>
+</body>
+</html>
